@@ -8,13 +8,9 @@ public class App {
         return "Hello world.";
     }
 
-    public String foo() {
-	return "foo";
-    }
-
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
 
-        System.out.println(new App().foo());
+        System.out.println(new Foo().sayHello());
     }
 }
