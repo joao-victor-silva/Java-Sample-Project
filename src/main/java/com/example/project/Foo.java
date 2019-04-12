@@ -6,6 +6,10 @@ public class Foo {
   }
 
   public String saySomething() {
-    return sayHello();
+    return sayGoodBye();
+  }
+
+  public String sayGoodBye() {
+    return "Goodbye";
   }
 }
