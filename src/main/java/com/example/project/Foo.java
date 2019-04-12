@@ -6,6 +6,6 @@ public class Foo {
   }
 
   public String saySomething() {
-    return "The class name is Foo";
+    return sayHello();
   }
 }
